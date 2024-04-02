@@ -19,11 +19,25 @@ Features:
 - Preview button
 
 
-*** INSTALLATION:
+> [!IMPORTANT]  
+> **To install this addin in TwinBasic, just unzip and copy each architecture dll in the corresponding folder**
+> \twinBASIC_IDE_BETA_xxx\addins\win32\
+> \twinBASIC_IDE_BETA_xxx\addins\win64\
+
+
+*** Release History ***
 -----------------
-To install this addin in TwinBasic, just unzip and copy each architecture dll in the corresponding folder
-\twinBASIC_IDE_BETA_xxx\addins\win32\
-\twinBASIC_IDE_BETA_xxx\addins\win64\ 
 
+2024-03-28
+----------
+- MsgBox Builder addin designed and implemented
 
-Any comments/suggestions/bug reports,  are always welcome!
+2024-03-29
+----------
+- Fixed Custom title automatically selected, once typing has started in the custom title textbox (Wayne Philips)
+- Fixed Issue when empty string was specified as a message.
+- Added Preview button
+
+2024-04-01
+----------
+- Fixed x64 bug, addin window not owned by the IDE
